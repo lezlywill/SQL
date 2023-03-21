@@ -1,0 +1,30 @@
+CREATE TABLE sales(
+  ID INTEGER  NOT NULL PRIMARY KEY
+, transaction_date TEXT
+, product TEXT
+, price INTEGER
+, payment_type TEXT
+, name TEXT
+, city TEXT
+, state TEXT
+, country TEXT
+, account_created TEXT
+, last_login TEXT
+);
+
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('1/26/22 6:17','Sectional Sofa',1200,'Mastercard','Bill_Harrison','Charlotte','North Carolina','United States','1/26/22 6:00','1/28/22 6:08');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('1/28/22 10:17','Sectional Sofa',2200,'Mastercard','Oliva_Henry','Buffalo','New York','United States','1/28/22 10:00','1/28/22 11:08');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('1/29/22 12:08','Chair',1200,'Mastercard','Andrea_Hernandez','Portland','OR','United states','1/29/22 11:21','1/29/22 12:32');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('2/3/22 14:44','Dresser',1500,'Visa','Sofia_Mendez','Albany','OR','United States','2/2/22 21:13','2/5/22 14:22');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('2/4/22 12:56','Couch',3600,'Visa','Gary_Walton','Auburn','AL','United states','2/3/22 15:47','2/5/22 12:45');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('3/14/22 13:19','Table',1200,'Visa','Lauren_Gibbs','Trenton','NJ','United States','3/12/22 15:19','3/15/22 13:04');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('3/24/22 20:11','Table',1600,'Mastercard','Madison_Dixon','Chicago','IL','United States','3/23/22 9:38','3/22/22 19:45');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('4/2/22 20:09','ottoman',700,'Mastercard','Adam_Martin','Knoxville','TN','United states','4/2/22 17:43','4/4/09 20:01');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('4/14/22 13:17','Dresser',1000,'Mastercard','Elisabeth_Craves','Nashville','TN', 'United States','4/14/22 13:03','4/15/22 22:10');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('4/17/22 14:11','King Bed',2200,'Visa','Aiden_Gonzalez','Dallas','TX','United States','4/13/22 4:22','4/25/22 1:17');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('5/5/09 2:42','Queen Bed',1900,'Visa','Stacy_Fuller','Rochester','NY','United states','5/5/22 2:23','5/15/22 4:59');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('5/21/22 5:39','Rugs',900,'Amex','Hailey_Davis','Orlando','FL','United States','5/20/22 4:55','5/25/22 8:15');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('5/20/09 9:16','Lamps',200,'Mastercard','Sean_Nelson','Shavano Park','TX','United states','5/18/22 8:32','5/25/22 9:05');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('6/5/22 10:08','Chairs',1200,'Visa','George_Stalls','Austin','TX','United states','6/2/22 15:53','6/15/22 10:05');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('6/12/22 14:18','Futons',2500,'Visa','Richard_Villas','San Pedro','Cali','United states','6/9/22 12:07','6/15/09 11:01');
+INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,country,account_created,last_login) VALUES ('7/4/22 1:05','Patio Chair Set',1200,'Visa','Lia_Martinez','Arlington','Va','United States','7/4/22 0:00','7/5/22 13:36');
